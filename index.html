@@ -5,42 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
     <style>
-      /* 最外層參數設定可用 html或:root */
-      /* html 與 :root 預設 font-size: 16px; */
-      html /* :root */ {
-        font-family: "Cascadia Mono";
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap");
+      :root {
+        font-family: "Noto Sans TC", sans-serif;
         font-size: 20px;
-      }
-
-      /* body 也會有自己的 font-size */
-
-      /* 根據父元素的大小變化 */
-      .em2 {
-        font-size: 2em;
-      }
-
-      /* 根據最外層(html/:root)的大小變化 */
-      .rem2 {
-        font-size: 2rem;
-      }
-
-      .py-1 {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
       }
     </style>
   </head>
   <body>
-    <div>Lorem ipsum dolor sit amet.</div>
-    <hr />
-    <div class="em2">
-      Lorem ipsum dolor sit amet. <br />
-      <strong class="em2">Lorem ipsum dolor sit amet.</strong>
-    </div>
-    <hr />
-    <div class="rem2 py-1">Lorem ipsum dolor sit amet.</div>
-    <strong class="rem2">Lorem ipsum dolor sit amet.</strong>
+    <div>嗨</div>
   </body>
 </html>
